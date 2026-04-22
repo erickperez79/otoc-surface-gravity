@@ -40,8 +40,10 @@ otoc-surface-gravity/
 │   ├── scaling_fits.py           # Ω(N) algebraic fits
 │   └── paper5_figures.py         # Generate all figures from data
 ├── figures/
-│   ├── fig1_c_vs_kappa.pdf       # c vs ln(κ) for both models
-│   └── fig2_beta_ads2.pdf        # Emergent AdS₂ geometry
+│   ├── fig1_c_vs_kappa.pdf             # c vs ln(κ) for both models
+│   ├── fig2_beta_ads2.pdf              # Emergent AdS₂ geometry R(Ω)
+│   ├── fig2_deltaF.pdf                 # Free energy ΔF vs κ (Longo chain)
+│   └── fig4_curvature_generalized.pdf  # Uniqueness of logistic β-function
 ├── CITATION.cff
 ├── LICENSE
 └── requirements.txt
