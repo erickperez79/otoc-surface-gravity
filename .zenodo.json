@@ -1,0 +1,54 @@
+{
+  "title": "Logarithmic Dependence of the OTOC Scaling Exponent on Surface Gravity: Empirical Evidence, Jones Index Structure, and AdS2 Emergence",
+  "description": "Data, simulation scripts, and manuscript for Paper V of the Kaelion OTOC KB series. We report a logarithmic dependence of the OTOC late-time scaling exponent c on effective surface gravity κ across two independent quantum many-body models: a static SYK model at finite temperature (κ = 2πT) and a Bose-Hubbard chain with a sonic horizon (κ_sonic). The central empirical result is c = a·ln(κ) + b with R² = 0.997 (SYK) and R² = 0.988 (BH sonic), favored over c ∝ 1/κ with ΔAIC = +15.6 (OLS). The logistic β-function β(Ω) = −cΩ(1−Ω) uniquely produces AdS₂ geometry in the IR, with closed-form scalar curvature R(Ω) = −2 + 12Ω(1−Ω). Run scripts/verify_reproduction.py to confirm all key results from the authoritative JSON data files.",
+  "creators": [
+    {
+      "name": "Perez-Eugenio, Erick Francisco",
+      "affiliation": "Independent Researcher",
+      "orcid": "0009-0006-3228-4847"
+    }
+  ],
+  "keywords": [
+    "OTOC",
+    "out-of-time-order correlator",
+    "quantum scrambling",
+    "surface gravity",
+    "SYK model",
+    "Bose-Hubbard",
+    "sonic horizon",
+    "AdS2",
+    "Jones index",
+    "subfactors",
+    "renormalization group",
+    "quantum information"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "software",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.18752608",
+      "relation": "isPartOf",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.19105623",
+      "relation": "isPartOf",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "10.5281/zenodo.19211500",
+      "relation": "isPartOf",
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
+    },
+    {
+      "identifier": "https://github.com/erickperez79/otoc-surface-gravity",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Paper V in the Kaelion OTOC KB series. Mathematical content verified via independent computational tools. All key numerical results reproduced by scripts/verify_reproduction.py (13/13 checks pass). Related papers: Paper I (DOI: 10.5281/zenodo.18752608), Paper II 1b (DOI: 10.5281/zenodo.19105623), Paper III (DOI: 10.5281/zenodo.19211500)."
+}

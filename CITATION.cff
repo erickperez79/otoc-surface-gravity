@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this data or code, please cite as below."
+type: software
+title: "Logarithmic Dependence of the OTOC Scaling Exponent on Surface Gravity"
+authors:
+  - family-names: "Perez-Eugenio"
+    given-names: "Erick Francisco"
+    orcid: "https://orcid.org/0009-0006-3228-4847"
+    email: "erick.fpe79@gmail.com"
+version: "1.0.0"
+date-released: "2026-04-09"
+license: "CC-BY-4.0"
+repository-code: "https://github.com/erickperez79/otoc-surface-gravity"
+keywords:
+  - "OTOC"
+  - "scrambling"
+  - "surface gravity"
+  - "SYK model"
+  - "AdS/CFT"
+  - "Jones index"
+  - "quantum information"
