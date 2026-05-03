@@ -20,7 +20,12 @@ Additionally, the logistic β-function β(Ω) = −cΩ(1−Ω) produces an emerg
 
     R(Ω) = −2 + 12Ω(1−Ω)
 
-giving R → −2 (AdS₂) at both fixed points of the scrambling flow.
+giving R → −2 (AdS₂) at both fixed points of the scrambling flow. A global property follows directly:
+
+    ∫₀¹ R(Ω) dΩ = 0  (exact)
+
+The AdS₂-like regions occupy (3−√3)/3 of the flow; the de Sitter region occupies √3/3 = 1/√3.
+These exactly cancel, so the scrambling flow is globally geometrically balanced.
 
 ## Repository Structure
 
@@ -43,7 +48,8 @@ otoc-surface-gravity/
 │   ├── fig1_c_vs_kappa.pdf             # c vs ln(κ) for both models
 │   ├── fig2_beta_ads2.pdf              # Emergent AdS₂ geometry R(Ω)
 │   ├── fig2_deltaF.pdf                 # Free energy ΔF vs κ (Longo chain)
-│   └── fig4_curvature_generalized.pdf  # Uniqueness of logistic β-function
+│   ├── fig4_curvature_generalized.pdf  # Uniqueness of logistic β-function
+│   └── fig_curvature_neutral.pdf       # Curvature neutrality: ∫R dΩ = 0
 ├── CITATION.cff
 ├── LICENSE
 └── requirements.txt
@@ -70,7 +76,7 @@ Expected output: all checks PASS, confirming R² values, ΔAIC, and R(Ω→0) = 
 
 ## Related Papers
 
-This is Paper V in the Kaelion project series:
+This is Paper V in the OTOC KB series:
 
 - **Paper I:** OTOCs & Scrambling — [DOI: 10.5281/zenodo.18752608](https://doi.org/10.5281/zenodo.18752608)
 - **Paper II (1b):** Spatial Scrambling Profiles — [DOI: 10.5281/zenodo.19105623](https://doi.org/10.5281/zenodo.19105623)
